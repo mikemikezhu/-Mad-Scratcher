@@ -15,6 +15,13 @@
 		2796AFAC19E92CB600046CE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2796AFAB19E92CB600046CE4 /* Images.xcassets */; };
 		2796AFAF19E92CB600046CE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2796AFAD19E92CB600046CE4 /* LaunchScreen.xib */; };
 		2796AFBB19E92CB600046CE4 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796AFBA19E92CB600046CE4 /* ___Tests.m */; };
+		2796AFC519E935B200046CE4 /* WawaSC-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2796AFC419E9355100046CE4 /* WawaSC-Regular.otf */; };
+		2796AFC819E93E1B00046CE4 /* DavidCryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796AFC719E93E1B00046CE4 /* DavidCryViewController.m */; };
+		2796AFCB19E9426800046CE4 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796AFCA19E9426800046CE4 /* WelcomeViewController.m */; };
+		2796AFCE19E9466500046CE4 /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796AFCD19E9466500046CE4 /* PlayViewController.m */; };
+		2796AFD119E953DD00046CE4 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2796AFD019E953DD00046CE4 /* ResultViewController.m */; };
+		2796AFD319E96B9C00046CE4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796AFD219E96B9C00046CE4 /* Social.framework */; };
+		2796AFD519E96BA800046CE4 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2796AFD419E96BA800046CE4 /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +49,17 @@
 		2796AFB419E92CB600046CE4 /* 撓死你Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "撓死你Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2796AFB919E92CB600046CE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2796AFBA19E92CB600046CE4 /* ___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Tests.m"; sourceTree = "<group>"; };
+		2796AFC419E9355100046CE4 /* WawaSC-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WawaSC-Regular.otf"; sourceTree = "<group>"; };
+		2796AFC619E93E1B00046CE4 /* DavidCryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DavidCryViewController.h; sourceTree = "<group>"; };
+		2796AFC719E93E1B00046CE4 /* DavidCryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DavidCryViewController.m; sourceTree = "<group>"; };
+		2796AFC919E9426800046CE4 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
+		2796AFCA19E9426800046CE4 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
+		2796AFCC19E9466500046CE4 /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		2796AFCD19E9466500046CE4 /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		2796AFCF19E953DD00046CE4 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		2796AFD019E953DD00046CE4 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		2796AFD219E96B9C00046CE4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		2796AFD419E96BA800046CE4 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2796AFD319E96B9C00046CE4 /* Social.framework in Frameworks */,
+				2796AFD519E96BA800046CE4 /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +85,7 @@
 		2796AF8F19E92CB600046CE4 = {
 			isa = PBXGroup;
 			children = (
+				2796AFD619E96BB000046CE4 /* Frameworks */,
 				2796AF9A19E92CB600046CE4 /* 撓死你 */,
 				2796AFB719E92CB600046CE4 /* 撓死你Tests */,
 				2796AF9919E92CB600046CE4 /* Products */,
@@ -87,6 +108,14 @@
 				2796AFA019E92CB600046CE4 /* AppDelegate.m */,
 				2796AFA519E92CB600046CE4 /* ViewController.h */,
 				2796AFA619E92CB600046CE4 /* ViewController.m */,
+				2796AFC619E93E1B00046CE4 /* DavidCryViewController.h */,
+				2796AFC719E93E1B00046CE4 /* DavidCryViewController.m */,
+				2796AFC919E9426800046CE4 /* WelcomeViewController.h */,
+				2796AFCA19E9426800046CE4 /* WelcomeViewController.m */,
+				2796AFCC19E9466500046CE4 /* PlayViewController.h */,
+				2796AFCD19E9466500046CE4 /* PlayViewController.m */,
+				2796AFCF19E953DD00046CE4 /* ResultViewController.h */,
+				2796AFD019E953DD00046CE4 /* ResultViewController.m */,
 				2796AFA819E92CB600046CE4 /* Main.storyboard */,
 				2796AFAB19E92CB600046CE4 /* Images.xcassets */,
 				2796AFAD19E92CB600046CE4 /* LaunchScreen.xib */,
@@ -99,6 +128,7 @@
 		2796AF9B19E92CB600046CE4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2796AFC419E9355100046CE4 /* WawaSC-Regular.otf */,
 				2796AF9C19E92CB600046CE4 /* Info.plist */,
 				2796AF9D19E92CB600046CE4 /* main.m */,
 			);
@@ -120,6 +150,15 @@
 				2796AFB919E92CB600046CE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2796AFD619E96BB000046CE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2796AFD419E96BA800046CE4 /* FacebookSDK.framework */,
+				2796AFD219E96B9C00046CE4 /* Social.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2796AFC519E935B200046CE4 /* WawaSC-Regular.otf in Resources */,
 				2796AFAA19E92CB600046CE4 /* Main.storyboard in Resources */,
 				2796AFAF19E92CB600046CE4 /* LaunchScreen.xib in Resources */,
 				2796AFAC19E92CB600046CE4 /* Images.xcassets in Resources */,
@@ -225,7 +265,11 @@
 				2796AFA119E92CB600046CE4 /* AppDelegate.m in Sources */,
 				2796AF9E19E92CB600046CE4 /* main.m in Sources */,
 				2796AFA719E92CB600046CE4 /* ViewController.m in Sources */,
+				2796AFC819E93E1B00046CE4 /* DavidCryViewController.m in Sources */,
 				2796AFA419E92CB600046CE4 /* ___.xcdatamodeld in Sources */,
+				2796AFCB19E9426800046CE4 /* WelcomeViewController.m in Sources */,
+				2796AFCE19E9466500046CE4 /* PlayViewController.m in Sources */,
+				2796AFD119E953DD00046CE4 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,6 +391,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Mike/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "撓死你/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +405,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/Mike/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = "撓死你/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +468,7 @@
 				2796AFC019E92CB600046CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2796AFC119E92CB600046CE4 /* Build configuration list for PBXNativeTarget "撓死你Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +477,7 @@
 				2796AFC319E92CB600046CE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
